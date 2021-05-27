@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body.login {
+    background-color: #d4dded;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #d9e6f7;
+    font-family: Verdana,Arial,sans-serif;
+    font-size:12px;
+    display: block;
+
+}
+
+.aviso {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    padding-left: 5px;
+    background: #ffffff;
+    width: 100%;
+    padding: 5px;
+    
+}
+
+.alerta {
+    background: #fcfdde;
+    padding: 5px;
+}
+
+.alerta span {
+    color: red;
+    font-weight: bolder;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contente .informacoes-logo {
+    padding: 0px;
+    justify-content: center;
+    background: #ffffff;
+    margin: 0;
+
+}
+
+.informacoes-logo {
+    padding: 0px;
+    justify-content: center;
+    background: #ffffff;
+    text-align:  center;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.informacoes-logo img {
+    width: 40%;
+    height: 40%;
+}
+
+.informacoes-logo p {
+    display: block;
+}
+
+.informacoes-logo span {
+   color: #cc1f89;
+   font-weight: bolder;
+}
+.dados-cadastrais {
+    display: flex;
+    flex-direction: column;
+    background: #e8eefa;
+    margin: 0 0 10px 10px;
+    padding: 15px;
+    
+}
+
+.acesso {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+
+.acesse-orkut {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formulario span {
+    font-weight: bolder;
+}
+
+.novo-membro {
+    background: #e8eefa;
+    text-align: center;
+    margin: 0 0 0 10px;
+    padding: 15px;
+    
+}
+
+.novo-membro a {
+    font-weight: bolder;
+}
+
+.pequeno-texto {
+    font-size: 12px;
+    color: #9477b0;
+}
+
+#footer {
+    background: #bccdea;
+    text-align: center;
+    padding: 8px;
+    margin: 10px;
+    width: 100%;
+}
+
+.contente {
+    display: flex;
+    width: 100%;
+    
+}
+
